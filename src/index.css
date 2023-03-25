@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+   display: none;
+}
+
+:root {
+   --mycolor: black;
+   --yourcolor: green;
+}
+.myclr{
+   /* background-color: var(--yourcolor) !important; */
+   color: var(--mycolor) !important;
+   background : linear-gradient(var(--mycolor) , var(--yourcolor)) !important
+ }
